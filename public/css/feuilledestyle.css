@@ -1,0 +1,17 @@
+
+#example_filter input {
+  border-radius: 5px;
+  margin-top:   -10px;
+  margin-bottom: -10px;
+   
+ }
+ .dataTable > thead > tr > th[class*="sort"]:after{
+     content: "" !important;
+ }
+ table.dataTable tbody th,
+ table.dataTable tbody td {
+   padding: 0.5em 0.5em 0.5em 0.5em;
+ }
+ table.dataTable thead th{
+   text-transform: capitalize;
+ }
